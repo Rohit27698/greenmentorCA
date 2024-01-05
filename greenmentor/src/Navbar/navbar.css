@@ -1,0 +1,59 @@
+.nav-container{
+    background-color: rgb(24,24,24);
+    color: white;
+    width: 20vw;
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logo{
+    padding: 1rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.logo > img{
+    width: 8rem;
+}
+
+.data-in{
+    padding-left: 2rem !important;
+    border-bottom: 2px solid rgb(73,73,73);
+    width: 100%;
+}
+
+.heading > p{
+text-align: left;
+color: rgb(73,73,73) !important;
+}
+
+.analyze{
+    margin-top: 2rem;
+    padding-left: 2rem !important;
+    border-bottom: 2px solid rgb(73,73,73);
+    width: 100%;
+}
+
+.analyze > p{
+    color: rgb(73,73,73);
+}
+
+button{
+    margin-top: 2rem;
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    background-color: rgb(2,171,108);
+    color: white;
+}
+
+
+.powered-by{
+    text-align: center;
+    background-color: rgb(2,171,108);
+    color: white;
+    margin-top: 70rem;
+    width: 100%;
+}
